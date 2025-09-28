@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "TrasportiNazionali",
+  "short_name": "TrasportiNazionali",
   "icons": [
     {
       "src": "/gioacchino-piazzolla-trasporti-logistica-manifest192.png",
