@@ -27,6 +27,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/gioacchino-piazzolla-trasporti-logistica-apple.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="alternate" hreflang="it" href="https://trasportinazionali.eu/" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     
     <meta property="og:title" content="Trasporti Nazionali Italia">
     <meta property="og:description" content="Trasporti Nazionali Italia – Consulenza, servizi logistici e trasporti in tutta Italia. Contattaci per progetti, preventivi e soluzioni personalizzate">
@@ -755,8 +756,35 @@ form.addEventListener("submit", async (e) => {
     }
 });
 </script>
+
+<!-- Libreria cookieconsent -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
+<!-- Script inizializzazione -->
+<script>
+window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        palette: {
+            popup: { background: "#3e3f41" },
+            button: { background: "#2e6495" }
+        },
+        theme: "classic",
+        position: "bottom",
+        type: "opt-in",
+        content: {
+            message: "Questo sito utilizza cookie tecnici necessari per il corretto funzionamento e cookie di terze parti solo per finalità statistiche. Per maggiori dettagli, leggi la nostra informativa.",
+            dismiss: "Accetta",
+            deny: "Rifiuta",
+            link: "Informativa sulla Privacy",
+            href: "/privacy.html"
+        }
+    });
+});
+</script>
+    
 </body>
 </html>
+
 
 
 
