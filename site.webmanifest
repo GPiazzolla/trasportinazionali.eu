@@ -1,6 +1,11 @@
 {
-  "name": "TrasportiNazionali",
-  "short_name": "TrasportiNazionali",
+  "name": "Trasporti Nazionali Italia",
+  "short_name": "trasportinazionali.eu",
+  "description": "Servizi logistici e trasporti in tutta Italia.",
+  "start_url": "https://trasportinazionali.eu",
+  "theme_color": "#004270",
+  "background_color": "#ffffff",
+  "scope": "/",
   "icons": [
     {
       "src": "/gioacchino-piazzolla-trasporti-logistica-manifest192.png",
