@@ -673,9 +673,15 @@ p:nth-of-type(2) {
     }
      .seconda-riga-btn {
         display: block; /* FORZA la parola ad andare a capo */
-        margin-top: -5px; /* (Opzionale) Rende l'altezza del pulsante più compatta */
-        line-height: 1.1; /* (Opzionale) Riduce lo spazio tra le due righe */
+        line-height: 1.2; /* (Opzionale) Riduce lo spazio tra le due righe */
     }   
+       .button-link {
+        display: block; /* Li impila uno sotto l'altro */
+        width: calc(100% - 20px); /* Larghezza completa, meno il padding orizzontale del container */
+        margin: 10px auto; /* Spazio verticale tra i pulsanti e li centra */
+        padding: 15px 20px; /* Riduci leggermente il padding per evitare overflow sui bordi stretti */
+        font-size: 18px; /* Riduci la dimensione del font per adattarsi meglio */
+    } 
     /* 5. Pulsante Invia: Adattamento al 100% */
     button[type="submit"] {
         width: 100%; 
@@ -789,6 +795,7 @@ window.addEventListener("load", function(){
     
 </body>
 </html>
+
 
 
 
