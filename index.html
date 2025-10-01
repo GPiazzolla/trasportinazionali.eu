@@ -671,6 +671,11 @@ p:nth-of-type(2) {
         padding: 10px; 
         margin-bottom: 15px; 
     }
+     .seconda-riga-btn {
+        display: block; /* FORZA la parola ad andare a capo */
+        margin-top: -5px; /* (Opzionale) Rende l'altezza del pulsante più compatta */
+        line-height: 1.1; /* (Opzionale) Riduce lo spazio tra le due righe */
+    }   
     /* 5. Pulsante Invia: Adattamento al 100% */
     button[type="submit"] {
         width: 100%; 
@@ -688,7 +693,7 @@ p:nth-of-type(2) {
 <p>Scopri i servizi professionali di logistica e trasporti in Italia</p>
 
 <a href="https://gpiazzolla.com" class="button-link">Visita il SITO UFFICIALE</a>
-<a href="https://dovecarico.it" class="button-link button-orange">Demo project &nbsp;Borsa Carichi</a>
+<a href="https://dovecarico.it" class="button-link button-orange">Demo project &nbsp;<span class="seconda-riga-btn">Borsa Carichi</span></a>
 
 <div style="margin-top:40px; margin-bottom:20px; text-align:center;">
     <h3 style="color:#2e6495;">CONTATTACI PER RICHIESTE AZIENDALI</h3>
@@ -784,6 +789,7 @@ window.addEventListener("load", function(){
     
 </body>
 </html>
+
 
 
 
